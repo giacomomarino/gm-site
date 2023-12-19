@@ -4,15 +4,19 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 166, 246, 255;
+  --background-end-rgb: 233, 196, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 13, 4, 74;
     --background-end-rgb: 0, 0, 0;
+    --color: whitesmoke;
+  }
+  .highlight:hover {
+    border: 2px solid whitesmoke;
   }
 }
 
@@ -24,4 +28,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+
+.highlight:hover {
+  transition: all 0.2s ease-out;
+  border: 2px solid #00000073;
 }

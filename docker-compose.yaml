@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  gm-site:
+    platform: linux/amd64
+    build: .
+    image: giacomomarino/gm-site:0.0.1
+    ports:
+      - 3000:3000
