@@ -24,7 +24,7 @@ export default function AppCard({ wordcount, lang, title, tagline, description, 
       </div>
         <div className="m-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full p-1">
         </div>
-        <div className="antialiased font-light border border-b-black border-t-0 border-x-0 description" style={{ height: 'fit-content', overflow: "hidden" }}>
+        <div className="antialiased font-light border border-b-black dark:border-b-white border-t-0 border-x-0 description" style={{ height: 'fit-content', overflow: "hidden" }}>
           <div className={"pb-3"} style={{ display: "-webkit-box", WebkitLineClamp: "3", textOverflow: "ellipsis" }}></div>
           {description.split(' ').slice(0, wordcount).join(" ")}{wordcount <= description.split(' ').length ? <>...</> : <></>}
         </div>

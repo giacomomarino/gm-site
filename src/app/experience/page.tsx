@@ -14,7 +14,7 @@ export default function Experience() {
 
         <h2 className="text-4xl mb-2 mt-3">Work Experience</h2>
 
-        <p className="text-lg"><b><a href="https://labs.icahn.mssm.edu/maayanlab/" target="_blank"><u>Ma'ayan Lab</u></a>, Icahn School of Medicine, Mount Sinai </b> | New York, NY (July 2022-Current)</p>
+        <p className="text-lg"><b><a href="https://labs.icahn.mssm.edu/maayanlab/" target="_blank"><u>Ma&apos;ayan Lab</u></a>, Icahn School of Medicine, Mount Sinai </b> | New York, NY (July 2022-Current)</p>
         <p className="text-lg"><i>Bioinformatics Software Engineer</i></p>
         <ul className="list-disc ml-5 mb-2">
             <li>Developed multiple full stack web applications published in several high-impact scientific journals.</li>
@@ -26,7 +26,7 @@ export default function Experience() {
         <p className="text-lg"><i>Research Intern</i></p>
         <ul className="list-disc ml-5 mb-2">
             <li>Worked in the tinnitus research center on EEG experiment design, data collection, and analysis.</li>
-            <li>Independently developed an analysis pipeline in MATLAB for discerning the strength of auditory steady-state response for a 40Hz signal administered under different conditions as well as scoring participants' ability to distinguish sounds in a crowded soundscape.</li>
+            <li>Independently developed an analysis pipeline in MATLAB for discerning the strength of auditory steady-state response for a 40Hz signal administered under different conditions as well as scoring participants&apos; ability to distinguish sounds in a crowded soundscape.</li>
         </ul>
 
         <p className="text-lg"><b><a href="https://www.kids4coding.com/" target="_blank"><u>Kids 4 Coding</u></a>, </b>| Remote (June 2021 - August 2021)</p>

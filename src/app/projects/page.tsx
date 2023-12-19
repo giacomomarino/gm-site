@@ -5,7 +5,7 @@ export default function Projects() {
         <div className="flex flex-col items-center justify-center">
             <div className="mb-5">
                 <div className='p-3 text-center text-lg'>
-                    A comphrensive list of projects I've led or contributed to. All are open source and available on GitHub:
+                    A comphrensive list of projects I&apos;ve led or contributed to. All are open source and available on GitHub:
                 </div>
             </div>
             <div className="flex flex-row justify-center mx-auto px-14">

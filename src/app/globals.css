@@ -32,12 +32,12 @@ body {
 .highlight:hover {
   transition: all 1s ease-out;
   border: 2px solid #00000073;
-  box-shadow: 0 0 10px 0 #00000073;
+  box-shadow: 0 0 10px #00000073 #00000073;
 }
 
 .description {
   overflow: hidden;
-  max-height: 82px;
+  max-height: 89px;
   transition: max-height 2s ease-out;
   text-overflow: ellipsis;
 }

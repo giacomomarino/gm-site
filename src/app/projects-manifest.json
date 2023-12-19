@@ -81,7 +81,7 @@
         "title": "My site",
         "tagline": "The site you're on right now",
         "description": "This site was built using Next.js and TailwindCSS. It is dockerized and hosted on AWS.",
-        "lang": "Typescript, Next.js, TailwindCSS, Docker",
-        "github": "https://github.com/MaayanLab/appyter-catalog/tree/main/appyters/Tumor_Gene_Target_Screener"
+        "lang": "Typescript, Next.js, TailwindCSS, MaterialUI, Docker",
+        "github": "https://github.com/giacomomarino/gm-site"
     }
 ]
