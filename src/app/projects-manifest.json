@@ -3,28 +3,85 @@
         "title": "Rummageo",
         "tagline": "Automatically generated signatures from GEO",
         "description": "The Gene Expression Omnibus (GEO) is a major open biomedical research repository for transcriptomics and other omics datasets. It currently contains millions of gene expression samples from tens of thousands of studies collected by many biomedical research laboratories from around the world. While users of the GEO repository can search the metadata describing studies and samples for locating relevant studies, there is currently no method or resource that facilitates global search of GEO at the data level. To address this shortcoming, we developed Rummageo, a webserver application that enables gene expression signature search against all human and mouse RNA-seq studies deposited into GEO. To enable such a search engine, we performed offline automatic identification of conditions from uniformly aligned GEO studies available from ARCHS4, and then computed differential expression signatures to extract gene sets from these signatures. In total, Rummageo currently contains 135,264 human and 158,062 mouse gene sets from 23,395 GEO studies. Overall, Rummagene provides an unprecedented resource for the biomedical research community enabling hypotheses generation for many future studies.",
-        "lang": "Typescript, PL/pgSQL, Rust, Python, Next.js, TailwindCSS, Docker",
-        "link": "https://rummageo.com"
+        "lang": "Typescript, PL/pgSQL, PostGraphile, Rust, Python, Next.js, TailwindCSS, Docker",
+        "link": "https://rummageo.com",
+        "github": "https://github.com/MaayanLab/rummageo"
     },
     {
         "title": "TargetRanger",
         "tagline": "Immunotherapy target discovery",
         "description": "TargetRanger is a web-server application that identifies targets from user-inputted RNA-seq samples collected from the cells we wish to target. By comparing the inputted samples with processed RNA-seq and proteomics data from several atlases, TargetRanger identifies genes that are highly expressed in the target cells while lowly expressed across normal human cell types, tissues, and cell lines.",
         "lang": "React, PL/pgSQL, Python, Next.js, MaterialUI, Docker",
-        "link": "https://targetranger.maayanlab.cloud/"
+        "link": "https://targetranger.maayanlab.cloud/",
+        "github": "https://github.com/MaayanLab/TargetRanger"
     },
     {
         "title": "lncHUB2",
         "tagline": "Functional predictions of human long non-coding RNAs",
         "description": "A long non-coding RNA (lncRNA) is a transcript with more than 200 nucleotides that is not translated into protein. Based on gene-gene co-expression correlations created from ARCHS4's processed RNA-seq samples, we present 18,705 human and 11,274 mouse landing pages for long non-coding RNAs that include expression statistics across tissues and cell lines, predicted biological functions, pathway membership, subcellular localization, and predicted small molecules and CRISPR KO genes that may regulate their expression.",
         "lang": "Python, Flask, Docker",
-        "link": "https://maayanlab.cloud/lncHUB2"
+        "link": "https://maayanlab.cloud/lncHUB2",
+        "github": "https://github.com/MaayanLab/lncHUB2"
+    },
+    {
+        "title": "D2H2",
+        "tagline": "Diabetes Data and Hypothesis Hub (D2H2)",
+        "description": "There is a rapid growth in the production of omics datasets collected by the diabetes research community. However, such published data are underutilized for knowledge discovery. To make bioinformatics tools and published omics datasets from the diabetes field more accessible to biomedical researchers, we developed the Diabetes Data and Hypothesis Hub (D2H2).",
+        "lang": "Python, Flask, Docker",
+        "link": "https://d2h2.maayanlab.cloud/",
+        "github": "https://github.com/MaayanLab/D2H2-site"
     },
     {
         "title": "Hippocampal Replay",
         "tagline": "Simutaing Hippocampal Replay with Reinforcement Learning",
         "description": "The hippocampus is a brain region that plays a key role in memory formation and recall. The hippocampus replays memories, which is thought to be important for memory consolidation. However, the mechanisms underlying hippocampal replay are not well understood. In this project, we use reinforcement learning to simulate hippocampal replay. We train an agent to navigate a maze and then replay the agent's trajectory.",
         "lang": "MATLAB",
-        "link": "https://github.com/giacomomarino/HippocampalReplay/tree/main"
+        "github": "https://github.com/giacomomarino/HippocampalReplay/tree/main"
+    },
+    {
+        "title": "MadHappy",
+        "tagline": "Applying real-time video filters based on emotional state",
+        "description": "We use a deep learning model to detect the user's emotional state in real-time. Based on the user's emotional state, we apply a video filter to the user's face. We use Tensorflow to detect the user's emotional state and the OpenCV library and computer vision to apply the video filter.",
+        "lang": "Python",
+        "github": "https://github.com/selentumay/madhappy"
+    },
+    {
+        "title": "GeneRanger",
+        "tagline": "Gene and transcript Expression across human tissue and cell atlases",
+        "description": "GeneRanger is a web-server application that provides access to processed data about the expression of human genes and proteins across human cell types, tissues, and cell lines from several atlases. A sister-site to TargetRanger",
+        "lang": "React, PL/pgSQL, Python, Next.js, MaterialUI, Docker",
+        "link": "https://generanger.maayanlab.cloud/",
+        "github": "https://github.com/MaayanLab/GeneRanger"
+    },
+    
+    {
+        "title": "Plant Cell Segmentor",
+        "tagline": "Deep learning fraemwork for plant cell segmentation",
+        "description": "A deep learning framework for 2d plant cell segmenation. This model was delevoped based off the work of Wolny et. al’s paper “Accurate and versatile 3D segmentation of plant tissues at cellular resolution.” The model archetecture exists in segmentor.py and the training and testing as well as visualaztion functions exist in assignment.py. Data is avaliable at https://osf.io/uzq3w and the specfic sets that were used in preprocessing and testing were the LateralRootPrimordia images in the test and train folders. With only a small set of these images a 97% accuracy was achieved. There are currently no known bugs in this implementation.",
+        "lang": "Python, Tensorflow",
+        "github": "https://github.com/giacomomarino/Plant-Cell-Segmenation/tree/main"
+    },
+    {
+        "title": "Gene Expression across Cells and Tissues (Appyter)",
+        "tagline": "Gene expression across human cell types and tissues",
+        "description": "The Gene Expression across Cells and Tissues Appyter takes as input a human gene symbol to produce box plots that display its expression across human cell types and tissues at the mRNA and protein levels. This appyter utilizes normal tissue gene and protein expression from GTEx, ARCHS4, and the Tabula Sapiens, the Human Protein Atlas, the Human Proteome Map, the GTEx proteome project, and the CCLE. GTEx Version 8 and the ARCHS4 Version 11 gene counts were processed to produce gene summary statistics for cell types and tissues. The Tabula Sapiens dataset was processed to produce expression values for all human genes in 469 cell types from 456,101 single cells collected from 14 donors. Proteomics data were obtained from the Human Protein Atlas with IHC-based expression profiling, the Human Proteome Map with MS-based expression quantification, and a GTEx proteome project using TMT MS.",
+        "lang": "Python, Appyter, Jinja2",
+        "link": "https://appyters.maayanlab.cloud/#/Gene_Expression_by_Tissue",
+        "github": "https://github.com/MaayanLab/appyter-catalog/tree/main/appyters/Gene_Expression_by_Tissue"
+    },
+    {
+        "title": "Tumor Gene Target Screener (Appyter)",
+        "tagline": "Gene expression across human cell types and tissues",
+        "description": "This Appyter is inspired by the work of Bosse, Kristopher R et al. which compared neurobastomas vs normal tissue in GTEx to identify a promising candidate immunotherapeutic target. The goal is to allow rapid screening of targets with the help of normal tissue data from GTEx and GEO data through ARCHS4, as well as single-cell data from Tabula Sapiens and the Human Cell Atlas. The Appyter takes tumor expression data and attempts to rank significantly differentially expressed genes when compared with with either bulk RNA-seq data from GTEx or ARCHS4, or single-cell RNA-seq data from Tabula Sapiens or Human Cell Atlas, across all tissues. The Genotype-Tissue Expression (GTEx) Project was supported by the Common Fund of the Office of the Director of the National Institutes of Health, and by NCI, NHGRI, NHLBI, NIDA, NIMH, and NINDS. GTEx Version 8 gene counts was processed to produce gene summary statistics. ARCHS4 provides access to gene counts from HiSeq 2000, HiSeq 2500 and NextSeq 500 platforms for human and mouse experiments from GEO and SRA. We processed ARCHS4 Version 11 to produce gene summary statistics. The Tabula Sapiens dataset was created by the The Tabula Sapiens Consortium. We processed the Tabula Sapiens dataset to produce gene summary statistics. The Human Cell Atlas provides access to single-cell data contributed by the scientific community. We combined and processed 15 datasets from the Human Cell Atlas to produce gene summary statistics. Immunotherapeutic candidates must have limited expression in normal tissues to be considered safe targets, so proteomic visualizations of the highly expressed genes in normal tissues may be useful in assessing gene candidacy. Proteomics data were obtained from the Human Protein Atlas with IHC-based expression profiling, the Human Proteome Map with MS-based expression quantification, and a GTEx proteome project using TMT MS.",
+        "lang": "Python, Appyter, Jinja2",
+        "link": "https://appyters.maayanlab.cloud/#/Tumor_Gene_Target_Screener",
+        "github": "https://github.com/MaayanLab/appyter-catalog/tree/main/appyters/Tumor_Gene_Target_Screener"
+    },
+    {
+        "title": "My site",
+        "tagline": "The site you're on right now",
+        "description": "This site was built using Next.js and TailwindCSS. It is dockerized and hosted on AWS.",
+        "lang": "Typescript, Next.js, TailwindCSS, Docker",
+        "github": "https://github.com/MaayanLab/appyter-catalog/tree/main/appyters/Tumor_Gene_Target_Screener"
     }
 ]

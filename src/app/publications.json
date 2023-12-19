@@ -1,0 +1,166 @@
+{
+    "publications": [
+        {
+            "title": "GeneRanger and TargetRanger: processed gene and protein expression levels across cells and tissues for target discovery.",
+            "journal": "Nucleic acids research",
+            "date": "2023-05-11",
+            "type": "Journal article",
+            "author": "Marino GB",
+            "doi": "10.1093/nar/gkad399",
+            "pmid": "37166966",
+            "pmc": "PMC10320068",
+            "contributors": [
+                "Marino GB",
+                "Ngai M",
+                "Clarke DJB",
+                "Fleishman RH",
+                "Deng EZ",
+                "Xie Z",
+                "Ahmed N",
+                "Ma'ayan A"
+            ],
+            "source": "Giacomo Marino",
+            "grade": "Preferred source (of 2)"
+        },
+        {
+            "title": "lncHUB2: aggregated and inferred knowledge about human and mouse lncRNAs.",
+            "journal": "Database : the journal of biological databases and curation",
+            "date": "2023-03-01",
+            "type": "Journal article",
+            "doi": "10.1093/database/baad009",
+            "pmid": "36869839",
+            "pmc": "PMC9985331",
+            "contributors": [
+                "Marino GB",
+                "Wojciechowicz ML",
+                "Clarke DJB",
+                "Kuleshov MV",
+                "Xie Z",
+                "Jeon M",
+                "Lachmann A",
+                "Ma'ayan A"
+            ],
+            "source": "Giacomo Marino"
+        },
+        {
+            "title": "D2H2: diabetes data and hypothesis hub",
+            "journal": "Bioinformatics Advances",
+            "date": "2023-01-05",
+            "type": "Journal article",
+            "pmid": "38107655",
+            "pmc": "PMC10723036",
+            "doi": "10.1093/bioadv/vbad178",
+            "contributors": [
+                "Marino GB",
+                "Ahmed N",
+                "Xie Z",
+                "Jagodnik KM",
+                "Han J",
+                "Clarke DJB",
+                "Lachmann A",
+                "Keller MP",
+                "Attie AD",
+                "Ma’ayan A et al."
+            ],
+            "source": "Crossref"
+        },
+        {
+            "title": "Rummagene: Mining Gene Sets from Supporting Materials of PMC Publications",
+            "date": "2023-10-05",
+            "type": "Preprint",
+            "doi": "10.1101/2023.10.03.560783",
+            "bioRxiv": "https://www.biorxiv.org/content/10.1101/2023.10.03.560783v1",
+            "contributors": [
+                "Clarke DJB",
+                "Marino GB",
+                "Deng EZ",
+                "Xie Z",
+                "Evangelista JE",
+                "Ma’ayan A"
+            ],
+            "source": "Crossref"
+        },
+        {
+            "title": "Toxicology knowledge graph for structural birth defects.",
+            "journal": "Communications medicine",
+            "date": "2023-07-17",
+            "type": "Journal article",
+            "doi": "10.1038/s43856-023-00329-2",
+            "pmid": "37460679",
+            "pmc": "PMC10352311",
+            "contributors": [
+                "Evangelista JE",
+                "Clarke DJB",
+                "Xie Z",
+                "Marino GB",
+                "Utti V",
+                "Jenkins S",
+                "Ahooyi TM",
+                "Bologa CG",
+                "Yang JJ",
+                "Binder JL et al."
+            ],
+            "source": "Giacomo Marino"
+        },
+        {
+            "title": "Enrichr-KG: bridging enrichment analysis across multiple libraries.",
+            "journal": "Nucleic acids research",
+            "date": "2023-05-11",
+            "type": "Journal article",
+            "author": "Marino GB",
+            "doi": "10.1093/nar/gkad393",
+            "pmid": "37166973",
+            "pmc": "PMC10320098",
+            "contributors": [
+                "Evangelista JE",
+                "Xie Z",
+                "Marino GB",
+                "Nguyen N",
+                "Clarke DJB",
+                "Ma'ayan A"
+            ],
+            "source": "Giacomo Marino",
+            "grade": "Preferred source (of 2)"
+        },
+        {
+            "title": "Computational screen to identify potential targets for immunotherapeutic identification and removal of senescence cells.",
+            "journal": "Aging cell",
+            "date": "2023-04-20",
+            "type": "Journal article",
+            "doi": "10.1111/acel.13809",
+            "pmid": "37082798",
+            "pmc": "PMC10265163",
+            "contributors": [
+                "Deng EZ",
+                "Fleishman RH",
+                "Xie Z",
+                "Marino GB",
+                "Clarke DJB",
+                "Ma'ayan A"
+            ],
+            "source": "Giacomo Marino"
+        },
+        {
+            "title": "Anatomy of the Human Osseous Spiral Lamina and Cochlear Partition Bridge: Relevance for Cochlear Partition Motion.",
+            "journal": "Journal of the Association for Research in Otolaryngology : JARO",
+            "date": "2020-03-12",
+            "type": "Journal article",
+            "doi": "10.1007/s10162-020-00748-1",
+            "pmid": "32166603",
+            "pmc": "PMC7270316",
+            "contributors": [
+                "Raufer S",
+                "C I",
+                "Zosuls A",
+                "Marino G",
+                "N Blanke",
+                "IJ Bigio",
+                "O'Malley JT",
+                "BJ Burgess",
+                "JB Nadol",
+                "Guinan J et al."
+            ],
+            "source": "Giacomo Marino"
+        }
+    ]
+}
