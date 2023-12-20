@@ -58,11 +58,11 @@ body {
   transition: width .2s ease-in-out, height .2s ease-in-out, ;
   animation: left 1s ease-in-out, top 1s ease-in;
 }
-/* @media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   .flare {
     display: none;
   }
-} */
+}
 
 .flare.pointer {
   transition: width 0.2s ease-in-out, height 0.2s ease-in-out, opacity 0.2s ease-in-out;
