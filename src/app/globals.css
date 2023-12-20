@@ -38,7 +38,7 @@ body {
 .description {
   overflow: hidden;
   max-height: 89px;
-  transition: max-height 2s ease-out;
+  transition: max-height 15s ease-out;
   text-overflow: ellipsis;
 }
 
@@ -46,5 +46,24 @@ body {
   overflow: visible;
   white-space: normal;
   max-height: 1000px;
-  transition: max-height 2s ease-out;
+  transition: max-height 5s ease-out;
+}
+
+.flare {
+  position: fixed;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  z-index: 10000 !important;
+  transform: translate(-50%, -50%);
+  transition: width .2s ease-in-out, height .2s ease-in-out, ;
+  animation: left 1s ease-in-out, top 1s ease-in;
+}
+/* @media only screen and (max-device-width: 480px) {
+  .flare {
+    display: none;
+  }
+} */
+
+.flare.pointer {
+  transition: width 0.2s ease-in-out, height 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }

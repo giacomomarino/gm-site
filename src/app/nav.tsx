@@ -12,21 +12,16 @@ export default function Nav() {
   return (
     <>
       <div className="navbar block text-center">
-        <div className="navbar-center">
-       
-        </div>
-        <div className="navbar-center ">
-       
-            
-          <ul className="menu menu-horizontal gap-5 flex text-lg m-5 justify-center">
+        <div className="navbar-center "> 
+          <ul className="menu menu-horizontal gap-5 flex text-lg m-5 justify-center xs:text-sm flex-wrap">
             <Link
                 href="/"
-                shallow><Image className='dark:invert' src={'/logo-transparent-black.png'} alt="GM" width={120} height={50}/>
+                shallow><Image className='dark:invert rounded-md' src={'/logo-transparent-black.png'} alt="GM" width={70} height={50}/>
               </Link>
             <>
             <Link
                 href="/"
-                shallow><li className={classNames('bg-white bg-opacity-10 rounded-md p-2 hover:bg-opacity-5 shadow-md max-h-10', {'border  dark:border-white border-black font-semibold border-opacity-40': pathname === '/' })}
+                shallow><li className={classNames('bg-white bg-opacity-10 rounded-md p-2 items-center hover:bg-opacity-5 shadow-md max-h-10', {'border  dark:border-white border-black font-semibold border-opacity-40': pathname === '/' })}
             style={{maxHeight: "44px"}}>
               About</li></Link>
            <Link

@@ -1,6 +1,12 @@
+'use client'
+
+import FollowCursor from "@/components/followCursor";
+
+
 export default function Experience() {
     return (
     <div className="w-full mx-auto xl:w-1/2 sm:w-full md:w-full lg:w-1/2 p-10 pt-0">
+        <FollowCursor/>
         <div className="text-center text-lg mb-2">
             <p>Giacomo B. Marino</p>
             <p className="text-light">Brooklyn, NY | giacomobmarino@gmail.com</p>
@@ -53,6 +59,13 @@ export default function Experience() {
         </ul>
 
         <p className="text-lg"><b><a href="https://www.cogitania.com/" target="_blank"><u>Cogitania</u></a></b> | Boston, MA (September 2020 - June 2021)</p>
+        <p className="text-lg"><i>Speaker/Tutor</i></p>
+        <ul className="list-disc ml-5 mb-2">
+            <li>Developed curriculum for high school students with limited science exposure to neuroscience/biology, with a goal of reaching more complex and specialized neurological concepts such as those surrounding dreaming and memory formation</li>
+            <li>Explored topics and developed a curriculum encompassing the discussion of philosophy and consciousness</li>
+        </ul>
+
+        <p className="text-lg"><b><a href="https://www.sciencefromscientists.org/" target="_blank"><u>Science from Scientists</u></a></b> | Boston, MA (September 2020 - June 2021)</p>
         <p className="text-lg"><i>Speaker/Tutor</i></p>
         <ul className="list-disc ml-5 mb-2">
             <li>Developed curriculum for high school students with limited science exposure to neuroscience/biology, with a goal of reaching more complex and specialized neurological concepts such as those surrounding dreaming and memory formation</li>

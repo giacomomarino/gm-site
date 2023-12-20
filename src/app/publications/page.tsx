@@ -1,17 +1,21 @@
+'use client'
+
 import React from 'react'
 import worklicationsInfo from '../publications.json'
+import FollowCursor from '@/components/followCursor'
 
 export default function Publications() {
     return (
         <div className="flex flex-col items-center justify-center">
-            <div className="mb-5">
+            <FollowCursor/>
+            <div className="mb-5 px-3">
                 <div className='p-3 text-center text-lg mb-3'>
                     A comphrensive list of worklications I&apos;ve led or contributed to:
                 </div>
                 <div className='text-center'>
                     {worklicationsInfo.publications.map((work, index) => {
                         return (
-                            <div className="text-justify" style={{ maxWidth: 1000 }} key={index}>
+                            <div className="text-justify text-lg" style={{ maxWidth: 1000 }} key={index}>
                                 <p className='m-3 mb-3'>
                                     {work.contributors.map((el) => el.replace(",", "&apos;")).join(", ")}. {work.date.split('-')[0]}. <b>{work.title}</b> <i>{work.journal}</i>.
                                     <a target="_blank" rel="noopener noreferrer" href={`https://www.doi.org/${work.doi}`}> {work.doi}
