@@ -24,26 +24,26 @@ export default function Nav() {
                 shallow><Image className='dark:invert' src={'/logo-transparent-black.png'} alt="GM" width={120} height={50}/>
               </Link>
             <>
-           <li className={classNames('bg-white bg-opacity-10 rounded-md p-2 hover:bg-opacity-5 shadow-md max-h-10', {'border  dark:border-white border-black font-semibold border-opacity-40': pathname === '/' })}
-            style={{maxHeight: "44px"}}>
-              <Link
+            <Link
                 href="/"
-                shallow>About</Link></li>
-           <li className={classNames('bg-white bg-opacity-10 rounded-md p-2 hover:bg-opacity-5 shadow-md max-h-10', {'border  dark:border-white border-black font-semibold border-opacity-40': pathname === '/experience' })}
+                shallow><li className={classNames('bg-white bg-opacity-10 rounded-md p-2 hover:bg-opacity-5 shadow-md max-h-10', {'border  dark:border-white border-black font-semibold border-opacity-40': pathname === '/' })}
             style={{maxHeight: "44px"}}>
-              <Link
+              About</li></Link>
+           <Link
                 href="/experience"
-                shallow>Experience</Link></li>
-           <li className={classNames('bg-white bg-opacity-10 rounded-md p-2 hover:bg-opacity-5 shadow-md max-h-10', {'border  dark:border-white border-black font-semibold border-opacity-40': pathname === '/projects' })}
+                shallow><li className={classNames('bg-white bg-opacity-10 rounded-md p-2 hover:bg-opacity-5 shadow-md max-h-10', {'border  dark:border-white border-black font-semibold border-opacity-40': pathname === '/experience' })}
             style={{maxHeight: "44px"}}>
+              Experience</li></Link>
               <Link
                 href="/projects"
-                shallow>Projects</Link></li>
-          <li className={classNames('bg-white bg-opacity-10 rounded-md p-2 hover:bg-opacity-5 shadow-md max-h-10', {'border  dark:border-white border-black font-semibold border-opacity-40': pathname === '/publications' })}
-          style={{maxHeight: "44px"}}>
-              <Link
+                shallow><li className={classNames('bg-white bg-opacity-10 rounded-md p-2 hover:bg-opacity-5 shadow-md max-h-10', {'border  dark:border-white border-black font-semibold border-opacity-40': pathname === '/projects' })}
+            style={{maxHeight: "44px"}}>
+             Projects</li></Link>
+             <Link
                 href="/publications"
-                shallow>Publications</Link></li>
+                shallow><li className={classNames('bg-white bg-opacity-10 rounded-md p-2 hover:bg-opacity-5 shadow-md max-h-10', {'border  dark:border-white border-black font-semibold border-opacity-40': pathname === '/publications' })}
+          style={{maxHeight: "44px"}}>
+              Publications</li></Link>
                 </>
           </ul> 
         </div>

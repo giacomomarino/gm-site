@@ -57,7 +57,7 @@
     {
         "title": "Plant Cell Segmentor",
         "tagline": "Deep learning fraemwork for plant cell segmentation",
-        "description": "A deep learning framework for 2d plant cell segmenation. This model was delevoped based off the work of Wolny et. al’s paper “Accurate and versatile 3D segmentation of plant tissues at cellular resolution.” The model archetecture exists in segmentor.py and the training and testing as well as visualaztion functions exist in assignment.py. Data is avaliable at https://osf.io/uzq3w and the specfic sets that were used in preprocessing and testing were the LateralRootPrimordia images in the test and train folders. With only a small set of these images a 97% accuracy was achieved. There are currently no known bugs in this implementation.",
+        "description": "A deep learning framework for 2d plant cell segmenation. This model was delevoped based off the work of Wolny et. al’s paper “Accurate and versatile 3D segmentation of plant tissues at cellular resolution.” The model archetecture exists in segmentor.py and the training and testing as well as visualaztion functions exist in assignment.py. Data is avaliable at https://osf.io/uzq3w and the specfic sets that were used in preprocessing and testing were the LateralRootPrimordia images in the test and train folders. With only a small set of these images a 97% accuracy was achieved.",
         "lang": "Python, Tensorflow",
         "github": "https://github.com/giacomomarino/Plant-Cell-Segmenation/tree/main"
     },
@@ -80,7 +80,7 @@
     {
         "title": "My site",
         "tagline": "The site you're on right now",
-        "description": "This site was built using Next.js and TailwindCSS. It is dockerized and hosted on AWS.",
+        "description": "This site was built using Next.js and TailwindCSS. It is dockerized and hosted on Google Cloud.",
         "lang": "Typescript, Next.js, TailwindCSS, MaterialUI, Docker",
         "github": "https://github.com/giacomomarino/gm-site"
     }
