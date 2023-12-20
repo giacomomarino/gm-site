@@ -64,13 +64,6 @@ export default function Experience() {
             <li>Developed curriculum for high school students with limited science exposure to neuroscience/biology, with a goal of reaching more complex and specialized neurological concepts such as those surrounding dreaming and memory formation</li>
             <li>Explored topics and developed a curriculum encompassing the discussion of philosophy and consciousness</li>
         </ul>
-
-        <p className="text-lg"><b><a href="https://www.sciencefromscientists.org/" target="_blank"><u>Science from Scientists</u></a></b> | Boston, MA (September 2020 - June 2021)</p>
-        <p className="text-lg"><i>Speaker/Tutor</i></p>
-        <ul className="list-disc ml-5 mb-2">
-            <li>Developed curriculum for high school students with limited science exposure to neuroscience/biology, with a goal of reaching more complex and specialized neurological concepts such as those surrounding dreaming and memory formation</li>
-            <li>Explored topics and developed a curriculum encompassing the discussion of philosophy and consciousness</li>
-        </ul>
         </div>
     </div>)
 
