@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 // This functional component represents a custom cursor with a flare effect.
 export default function FollowCursor() {
     // State to track the current cursor position (x, y coordinates).
-    const [position, setPosition] = useState({ x: 25, y: 25 });
+    const [position, setPosition] = useState({ x: -25, y: -25 });
 
     // State to track whether the cursor is over a clickable element.
     const [isPointer, setIsPointer] = useState(false);
@@ -11,7 +11,9 @@ export default function FollowCursor() {
     // Event handler for the mousemove event.
     const handleMouseMove = (e: MouseEvent) => {
         // Update the cursor position based on the mouse coordinates.
+  
         setPosition({ x: e.clientX, y: e.clientY });
+
 
         // Get the target element that the cursor is currently over.
         const target = e.target as HTMLElement; // Cast the event target to HTMLElement
@@ -40,6 +42,8 @@ export default function FollowCursor() {
     const cursorStyle = isPointer ? { left: "-100px", top: "-100px" } : {};
 
     // Render the custom cursor element with dynamic styles based on cursor state.
+
+    
     return (
         <div
             className={`flare bg-white blur-md bg-opacity-60 dark:bg-opacity-30 rounded-full ${isPointer ? "bg-opactiy-100 dark:bg-opactiy-100 blur-none z-30 " : ""}`}
