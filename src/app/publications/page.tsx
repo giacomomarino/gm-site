@@ -34,8 +34,8 @@ export default function Publications() {
                                                 PMC</button>
                                         </a>
                                     }
-                                     {work.bioRxiv &&
-                                        <a target="_blank" rel="noopener noreferrer" href={work.bioRxiv}>
+                                     {work?.bioRxiv &&
+                                        <a target="_blank" rel="noopener noreferrer" href={work?.bioRxiv}>
                                             <button className="border bg-opacity-0 dark:bg-opacity-0  mb-2 text-sm p-2 rounded-md font-light hover:font-semibold hover:bg-opacity-5 border-black bg-black   dark:border-white dark:bg-white hover:border-2">
                                             bioRxiv</button>
                                         </a>

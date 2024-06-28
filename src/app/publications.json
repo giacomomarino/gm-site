@@ -70,6 +70,21 @@
                 "Wang P"
             ],
             "source": "Giacomo Marino"
+        }, 
+        {
+            "title": "RummaGEO: Automatic Mining of Human and Mouse Gene Sets from GEO",
+            "date": "2023-05-11",
+            "type": "prepint",
+            "author": "Marino GB",
+            "bioRxiv": "https://doi.org/10.1101/2024.04.09.588712",
+            "contributors": [
+                "Marino GB",
+                "Clarke DJB",
+                "Deng EZ",
+                "Ma'ayan A"
+            ],
+            "source": "Giacomo Marino",
+            "grade": "Preferred source (of 2)"
         },
         {
             "title": "GeneRanger and TargetRanger: processed gene and protein expression levels across cells and tissues for target discovery.",
