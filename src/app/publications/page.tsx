@@ -10,7 +10,7 @@ export default function Publications() {
             <FollowCursor/>
             <div className="mb-5 px-3">
                 <div className='p-3 text-center text-lg mb-3'>
-                    A comphrensive list of worklications I&apos;ve led or contributed to:
+                    A comprehensive list of publications I&apos;ve led or contributed to:
                 </div>
                 <div className='text-center'>
                     {worklicationsInfo.publications.map((work, index) => {

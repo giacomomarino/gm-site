@@ -135,11 +135,11 @@
             "source": "Crossref"
         },
         {
-            "title": "Rummagene: Mining Gene Sets from Supporting Materials of PMC Publications",
-            "date": "2023-10-05",
-            "type": "Preprint",
-            "doi": "10.1101/2023.10.03.560783",
-            "bioRxiv": "https://www.biorxiv.org/content/10.1101/2023.10.03.560783v1",
+            "title": "Rummagene: massive mining of gene sets from supporting materials of biomedical research publications",
+            "journal": "Communications Biology",
+            "date": "2024-4-20",
+            "type": "Journal Article",
+            "doi": "10.1038/s42003-024-06177-7",
             "contributors": [
                 "Clarke DJB",
                 "Marino GB",
