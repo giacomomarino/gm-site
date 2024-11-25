@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AppCard({ wordcount, lang, title, tagline, description, link, github }: { wordcount: number, lang: string, title: string, tagline: string, description: string, link: string | undefined, github: string | undefined }) {
   return (
-    <div className="relative flex flex-col bg-gray-500 dark:bg-white dark:bg-opacity-10 bg-opacity-10 shadow-md bg-clip-border rounded-xl border border-black border-opacity-0 dark:border-opacity-0 dark:border-white hover:border-opacity-90 hover:bg-opacity-5 hover:translate-x-1 hover:translate-y-1">
+    <div className="relative flex flex-col bg-gray-500 dark:bg-white dark:bg-opacity-10 bg-opacity-10 shadow-md bg-clip-border rounded-xl border border-black border-opacity-0 dark:border-opacity-0 dark:border-white hover:border-opacity-90 hover:bg-opacity-5 hover:translate-x-1 hover:translate-y-1 transition-all">
       <div className="p-6">
         <i className="text-sm">{lang}</i>
         <h5 className="block m-2 ml-0 text-xl">

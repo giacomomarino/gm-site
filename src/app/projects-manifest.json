@@ -1,8 +1,8 @@
 [
     {
-        "title": "Rummageo",
+        "title": "RummaGEO",
         "tagline": "Automatically generated signatures from GEO",
-        "description": "The Gene Expression Omnibus (GEO) is a major open biomedical research repository for transcriptomics and other omics datasets. It currently contains millions of gene expression samples from tens of thousands of studies collected by many biomedical research laboratories from around the world. While users of the GEO repository can search the metadata describing studies and samples for locating relevant studies, there is currently no method or resource that facilitates global search of GEO at the data level. To address this shortcoming, we developed Rummageo, a webserver application that enables gene expression signature search against all human and mouse RNA-seq studies deposited into GEO. To enable such a search engine, we performed offline automatic identification of conditions from uniformly aligned GEO studies available from ARCHS4, and then computed differential expression signatures to extract gene sets from these signatures. In total, Rummageo currently contains 135,264 human and 158,062 mouse gene sets from 23,395 GEO studies. Overall, Rummagene provides an unprecedented resource for the biomedical research community enabling hypotheses generation for many future studies.",
+        "description": "The Gene Expression Omnibus (GEO) is a major open biomedical research repository for transcriptomics and other omics datasets. It currently contains millions of gene expression samples from tens of thousands of studies collected by many biomedical research laboratories from around the world. While users of the GEO repository can search the metadata describing studies and samples for locating relevant studies, there is currently no method or resource that facilitates global search of GEO at the data level. To address this shortcoming, we developed RummaGEO, a webserver application that enables gene expression signature search against all human and mouse RNA-seq studies deposited into GEO. To enable such a search engine, we performed offline automatic identification of conditions from uniformly aligned GEO studies available from ARCHS4, and then computed differential expression signatures to extract gene sets from these signatures. In total, RummaGEO currently contains 178,975 human and 203,427 mouse gene sets from 30,576 GEO studies. Overall, RummaGEO provides an unprecedented resource for the biomedical research community enabling hypotheses generation for many future studies.",
         "lang": "Typescript, PL/pgSQL, PostGraphile, Rust, Python, Next.js, TailwindCSS, Docker",
         "link": "https://rummageo.com",
         "github": "https://github.com/MaayanLab/rummageo"
@@ -65,7 +65,7 @@
     {
         "title": "Plant Cell Segmentor",
         "tagline": "Deep learning fraemwork for plant cell segmentation",
-        "description": "A deep learning framework for 2d plant cell segmenation. This model was delevoped based off the work of Wolny et. al’s paper “Accurate and versatile 3D segmentation of plant tissues at cellular resolution.” The model archetecture exists in segmentor.py and the training and testing as well as visualaztion functions exist in assignment.py. Data is avaliable at https://osf.io/uzq3w and the specfic sets that were used in preprocessing and testing were the LateralRootPrimordia images in the test and train folders. With only a small set of these images a 97% accuracy was achieved.",
+        "description": "A deep learning framework for 2d plant cell segmentation. This model was developed based off the work of Wolny et. al’s paper “Accurate and versatile 3D segmentation of plant tissues at cellular resolution.” The model architecture exists in segmentor.py and the training and testing as well as visualization functions exist in assignment.py. Data is available at https://osf.io/uzq3w and the specific sets that were used in preprocessing and testing were the LateralRootPrimordia images in the test and train folders. With only a small set of these images a 97% accuracy was achieved.",
         "lang": "Python, Tensorflow",
         "github": "https://github.com/giacomomarino/Plant-Cell-Segmenation/tree/main"
     },
@@ -87,8 +87,8 @@
     },
     {
         "title": "My Personal Site",
-        "tagline": "The site you're on right now :)",
-        "description": "This site was built using Next.js and TailwindCSS. It is hosted on Vercel.",
+        "tagline": "The site you're on right now",
+        "description": "This site was built using Next.js and TailwindCSS and is hosted on Vercel.",
         "lang": "Typescript, Next.js, TailwindCSS, MaterialUI",
         "github": "https://github.com/giacomomarino/gm-site"
     }
