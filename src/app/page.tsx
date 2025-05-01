@@ -9,10 +9,10 @@ export default function Home() {
       <FollowCursor />
       <div>
         <h1 className="text-7xl font-bold text-center mb-2">Giacomo Marino</h1>
-        <p className="text-2xl text-center">Full Stack Developer</p>
+        <p className="text-2xl text-center">Bioinformatician & Full Stack Developer</p>
         <div className="flex flex-col sm:flex-row sm:flex-wrap mb-2 justify-center">
           <div className="w-full sm:w-2/3 md:w-2/4 lg:w-2/4 p-3">
-            <p className="mb-5 mt-2 p-2 rounded border border-black border-opacity-0 dark:border-opacity-0 dark:border-white hover:bg-opacity-5 hover:border-opacity-20 hover:-opacity-90 hover:translate-x-1 hover:translate-y-1 hover:shadow-lg transition-all">
+            <p className="mb-5 mt-2 p-2 rounded border border-black border-opacity-0 dark:border-opacity-0 dark:border-white hover:bg-opacity-5 hover:border-opacity-20 hover:-opacity-90 hover:translate-x-1 hover:translate-y-1 hover:shadow-lg transition-all transition-duration:2s">
               I am a full stack developer working in bioinformatics with a
               passion for data science and machine learning. I am currently
               working as a{" "}
@@ -29,12 +29,12 @@ export default function Home() {
               recent highlighted projects:
             </p>
           </div>
-          <div className="w-full sm:w-auto justify-center">
+          <div className="w-full sm:w-auto justify-center items-center">
             <img
               className="rounded-lg border-4 my-auto mx-auto border-white-500"
               src="headshot.jpg"
-              width={175}
-              height={175}
+              width={135}
+              height={135}
             />
           </div>
         </div>
