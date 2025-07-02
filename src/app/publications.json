@@ -1,6 +1,24 @@
 {
     "publications": [
         {
+            "title": "L2S2: chemical perturbation and CRISPR KO LINCS L1000 signature search engine.",
+            "journal": "Nucleic acids research",
+            "date": "2025-May-01",
+            "type": "Journal Article",
+            "author": "Marino GB",
+            "doi": "10.1093/nar/gkaf373",
+            "pmid": "40308216",
+            "pmc": null,
+            "contributors": [
+                "Marino GB",
+                "Evangelista JE",
+                "Clarke DJB",
+                "Ma'ayan A"
+            ],
+            "source": "Giacomo Marino",
+            "grade": "Preferred source (of 2)"
+        },
+        {
             "title": "Playbook workflow builder: Interactive construction of bioinformatics workflows.",
             "journal": "PLoS computational biology",
             "date": "2025-Apr",
