@@ -12,11 +12,14 @@ export default function Experience() {
             <p className="text-light">Brooklyn, NY | giacomobmarino@gmail.com</p>
         </div>
         <div className="text-justify">
-        <h2 className="text-4xl mb-2">Education</h2>
-        <p className="text-lg"><b>Brown University</b>, Neuroscience <i>ScB</i> & Computer Science <i>AB</i>, May 2022</p>
-        <ul className="list-disc ml-5 mb-2">
-            <li>Magna Cum Laude</li>
-        </ul>
+        
+
+            <h2 className="text-4xl mb-2">Education</h2>
+            <p className="text-lg"><b>Yale University</b>, <i>PhD</i> Computational Biology and Biomedical Informatics, August 2025 - Current</p>
+            <p className="text-lg"><b>Brown University</b>, Neuroscience <i>ScB</i> & Computer Science <i>AB</i>, May 2022</p>
+            <ul className="list-disc ml-5 mb-2">
+                <li>Magna Cum Laude</li>
+            </ul>
        
         <p className="text-lg"><b>Phillips Academy Andover</b>, June 2018</p>
         <ul className="list-disc ml-5 mb-2">
@@ -27,7 +30,7 @@ export default function Experience() {
 
         <h2 className="text-4xl mb-2 mt-3">Work Experience</h2>
 
-        <p className="text-lg"><b><a href="https://labs.icahn.mssm.edu/maayanlab/" target="_blank"><u>Ma&apos;ayan Lab</u></a>, Icahn School of Medicine, Mount Sinai </b> | New York, NY (July 2022-Current)</p>
+        <p className="text-lg"><b><a href="https://labs.icahn.mssm.edu/maayanlab/" target="_blank"><u>Ma&apos;ayan Lab</u></a>, Icahn School of Medicine, Mount Sinai </b> | New York, NY (July 2022-June 2025)</p>
         <p className="text-lg"><i>Bioinformatics Software Engineer</i></p>
         <ul className="list-disc ml-5 mb-2">
             <li>Developed multiple full stack web applications published in several high-impact scientific journals</li>
