@@ -5,7 +5,8 @@
         "description": "The Gene Expression Omnibus (GEO) is a major open biomedical research repository for transcriptomics and other omics datasets. It currently contains millions of gene expression samples from tens of thousands of studies collected by many biomedical research laboratories from around the world. While users of the GEO repository can search the metadata describing studies and samples for locating relevant studies, there is currently no method or resource that facilitates global search of GEO at the data level. To address this shortcoming, we developed RummaGEO, a webserver application that enables gene expression signature search against all human and mouse RNA-seq studies deposited into GEO. To enable such a search engine, we performed offline automatic identification of conditions from uniformly aligned GEO studies available from ARCHS4, and then computed differential expression signatures to extract gene sets from these signatures. In total, RummaGEO currently contains 178,975 human and 203,427 mouse gene sets from 30,576 GEO studies. Overall, RummaGEO provides an unprecedented resource for the biomedical research community enabling hypotheses generation for many future studies.",
         "lang": "Typescript, PL/pgSQL, PostGraphile, Rust, Python, Next.js, TailwindCSS, Docker",
         "link": "https://rummageo.com",
-        "github": "https://github.com/MaayanLab/rummageo"
+        "github": "https://github.com/MaayanLab/rummageo",
+        "paper": "https://pubmed.ncbi.nlm.nih.gov/39569206/"
     },
     {
         "title": "Multiomics2Targets",
@@ -13,7 +14,8 @@
         "description": "The availability of data from the profiling of cancer patients with multiomics technologies is rapidly increasing. However, integrative analysis of such data for knowledge extraction and practical hypotheses generation for clinical applications is not trivial. Here we present Multiomics2Targets, a bioinformatics workflow that enables users to upload three data matrices collected from the same cohorts of cancer patients. After uploading transcriptomics, proteomics, and phosphoproteomics data matrices as well as accompanying metadata, Multiomics2Targets produces a report that resembles a research publication. The uploaded data matrices are processed, analyzed, and visualized using the tools Enrichr, KEA3, ChEA3, Expression2Kinases, and TargetRanger to produce ~80 figures and ~30 tables. Figure and table legends, as well as descriptions of the methods and results are provided. The reports include an abstract, an introduction, methods, results, discussion, conclusions, and references sections. Multiomics2Targets reports can be exported as PDF or Jupyter Notebooks, and can be cited. Additionally, since the pipeline is implemented as a Jupyter Notebook, the source code used to perform the analysis and produce the report is embedded within the report and can be easily viewed, modified, and run locally. Multiomics2Targets can be used to perform alternative analyses when only one or two omics datasets are uploaded..",
         "lang": "Python, Jinja2, Svelte, Appyter, Docker",
         "link": "https://multiomics2targets.maayanlab.cloud",
-        "github": "https://github.com/MaayanLab/multiomics2targets"
+        "github": "https://github.com/MaayanLab/multiomics2targets",
+        "paper": "https://pubmed.ncbi.nlm.nih.gov/39127042/"
     },
     {
         "title": "TargetRanger",
@@ -21,7 +23,8 @@
         "description": "TargetRanger is a web-server application that identifies targets from user-inputted RNA-seq samples collected from the cells we wish to target. By comparing the inputted samples with processed RNA-seq and proteomics data from several atlases, TargetRanger identifies genes that are highly expressed in the target cells while lowly expressed across normal human cell types, tissues, and cell lines.",
         "lang": "React, PL/pgSQL, Python, Next.js, MaterialUI, Docker",
         "link": "https://targetranger.maayanlab.cloud/",
-        "github": "https://github.com/MaayanLab/TargetRanger"
+        "github": "https://github.com/MaayanLab/TargetRanger",
+        "paper": "https://pubmed.ncbi.nlm.nih.gov/37166966/"
     },
     {
         "title": "lncHUB2",
@@ -29,7 +32,8 @@
         "description": "A long non-coding RNA (lncRNA) is a transcript with more than 200 nucleotides that is not translated into protein. Based on gene-gene co-expression correlations created from ARCHS4's processed RNA-seq samples, we present 18,705 human and 11,274 mouse landing pages for long non-coding RNAs that include expression statistics across tissues and cell lines, predicted biological functions, pathway membership, subcellular localization, and predicted small molecules and CRISPR KO genes that may regulate their expression.",
         "lang": "Python, Flask, Docker",
         "link": "https://maayanlab.cloud/lncHUB2",
-        "github": "https://github.com/MaayanLab/lncHUB2"
+        "github": "https://github.com/MaayanLab/lncHUB2",
+        "paper": "https://pubmed.ncbi.nlm.nih.gov/36869839/"
     },
     {
         "title": "D2H2",
@@ -37,7 +41,8 @@
         "description": "There is a rapid growth in the production of omics datasets collected by the diabetes research community. However, such published data are underutilized for knowledge discovery. To make bioinformatics tools and published omics datasets from the diabetes field more accessible to biomedical researchers, we developed the Diabetes Data and Hypothesis Hub (D2H2).",
         "lang": "Python, Flask, Docker",
         "link": "https://d2h2.maayanlab.cloud/",
-        "github": "https://github.com/MaayanLab/D2H2-site"
+        "github": "https://github.com/MaayanLab/D2H2-site",
+        "paper": "https://pubmed.ncbi.nlm.nih.gov/38107655/"
     },
     {
         "title": "Hippocampal Replay",
@@ -59,7 +64,8 @@
         "description": "GeneRanger is a web-server application that provides access to processed data about the expression of human genes and proteins across human cell types, tissues, and cell lines from several atlases. A sister-site to TargetRanger",
         "lang": "React, PL/pgSQL, Python, Next.js, MaterialUI, Docker",
         "link": "https://generanger.maayanlab.cloud/",
-        "github": "https://github.com/MaayanLab/GeneRanger"
+        "github": "https://github.com/MaayanLab/GeneRanger",
+        "paper": "https://pubmed.ncbi.nlm.nih.gov/37166966/"
     },
     
     {
@@ -75,7 +81,8 @@
         "description": "The Gene Expression across Cells and Tissues Appyter takes as input a human gene symbol to produce box plots that display its expression across human cell types and tissues at the mRNA and protein levels. This appyter utilizes normal tissue gene and protein expression from GTEx, ARCHS4, and the Tabula Sapiens, the Human Protein Atlas, the Human Proteome Map, the GTEx proteome project, and the CCLE. GTEx Version 8 and the ARCHS4 Version 11 gene counts were processed to produce gene summary statistics for cell types and tissues. The Tabula Sapiens dataset was processed to produce expression values for all human genes in 469 cell types from 456,101 single cells collected from 14 donors. Proteomics data were obtained from the Human Protein Atlas with IHC-based expression profiling, the Human Proteome Map with MS-based expression quantification, and a GTEx proteome project using TMT MS.",
         "lang": "Python, Appyter, Jinja2",
         "link": "https://appyters.maayanlab.cloud/#/Gene_Expression_by_Tissue",
-        "github": "https://github.com/MaayanLab/appyter-catalog/tree/main/appyters/Gene_Expression_by_Tissue"
+        "github": "https://github.com/MaayanLab/appyter-catalog/tree/main/appyters/Gene_Expression_by_Tissue",
+        "paper": "https://pubmed.ncbi.nlm.nih.gov/37166966/"
     },
     {
         "title": "Tumor Gene Target Screener (Appyter)",
@@ -83,13 +90,16 @@
         "description": "This Appyter is inspired by the work of Bosse, Kristopher R et al. which compared neurobastomas vs normal tissue in GTEx to identify a promising candidate immunotherapeutic target. The goal is to allow rapid screening of targets with the help of normal tissue data from GTEx and GEO data through ARCHS4, as well as single-cell data from Tabula Sapiens and the Human Cell Atlas. The Appyter takes tumor expression data and attempts to rank significantly differentially expressed genes when compared with with either bulk RNA-seq data from GTEx or ARCHS4, or single-cell RNA-seq data from Tabula Sapiens or Human Cell Atlas, across all tissues. The Genotype-Tissue Expression (GTEx) Project was supported by the Common Fund of the Office of the Director of the National Institutes of Health, and by NCI, NHGRI, NHLBI, NIDA, NIMH, and NINDS. GTEx Version 8 gene counts was processed to produce gene summary statistics. ARCHS4 provides access to gene counts from HiSeq 2000, HiSeq 2500 and NextSeq 500 platforms for human and mouse experiments from GEO and SRA. We processed ARCHS4 Version 11 to produce gene summary statistics. The Tabula Sapiens dataset was created by the The Tabula Sapiens Consortium. We processed the Tabula Sapiens dataset to produce gene summary statistics. The Human Cell Atlas provides access to single-cell data contributed by the scientific community. We combined and processed 15 datasets from the Human Cell Atlas to produce gene summary statistics. Immunotherapeutic candidates must have limited expression in normal tissues to be considered safe targets, so proteomic visualizations of the highly expressed genes in normal tissues may be useful in assessing gene candidacy. Proteomics data were obtained from the Human Protein Atlas with IHC-based expression profiling, the Human Proteome Map with MS-based expression quantification, and a GTEx proteome project using TMT MS.",
         "lang": "Python, Appyter, Jinja2",
         "link": "https://appyters.maayanlab.cloud/#/Tumor_Gene_Target_Screener",
-        "github": "https://github.com/MaayanLab/appyter-catalog/tree/main/appyters/Tumor_Gene_Target_Screener"
+        "github": "https://github.com/MaayanLab/appyter-catalog/tree/main/appyters/Tumor_Gene_Target_Screener",
+        "paper": "https://pubmed.ncbi.nlm.nih.gov/37166966/"
     },
     {
-        "title": "My Personal Site",
-        "tagline": "The site you're on right now",
-        "description": "This site was built using Next.js and TailwindCSS and is hosted on Vercel.",
-        "lang": "Typescript, Next.js, TailwindCSS, MaterialUI",
-        "github": "https://github.com/giacomomarino/gm-site"
+        "title": "LINCS L1000 Signature Search (L2S2)",
+        "tagline": "L2S2 includes over 1.4 million chemical perturbation and over 280,000 CRISPR knockout signatures",
+        "description": "As part of the Library of Integrated Network-Based Cellular Signatures (LINCS) NIH initiative, 248 human cell lines were profiled with the L1000 assay to measure the effect of 33 621 small molecules and 7508 single-gene CRISPR knockouts. From this massive dataset, we computed 1.678 million sets of up- and down-regulated genes. These gene sets are served for search by the LINCS L1000 Signature Search (L2S2) web server application. With L2S2, users can identify small molecules and single gene CRISPR KOs that produce gene expression profiles similar or opposite to their submitted single or up/down gene sets. L2S2 also includes a consensus search feature that ranks perturbations across all cellular contexts, time points, and concentrations. To demonstrate the utility of L2S2, we crossed the L2S2 gene sets with gene sets collected for the RummaGEO resource. The analysis identified clusters of differentially expressed genes that match drug classes, tissues, and diseases, pointing to many opportunities for drug repurposing and drug discovery. Overall, the L2S2 web server application can be used to further the development of personalized therapeutics while expanding our understanding of complex human diseases. ",
+        "lang": "Typescript, PL/pgSQL, PostGraphile, Rust, Python, Next.js, TailwindCSS, Docker",
+        "link": "https://l2s2.maayanlab.cloud/",
+        "github": "https://github.com/MaayanLab/L2S2",
+        "paper": "https://pubmed.ncbi.nlm.nih.gov/40308216/"
     }
 ]

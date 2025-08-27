@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AppCard({ wordcount, lang, title, tagline, description, link, github }: { wordcount: number, lang: string, title: string, tagline: string, description: string, link: string | undefined, github: string | undefined }) {
+export default function AppCard({ wordcount, lang, title, tagline, description, link, github, paper }: { wordcount: number, lang: string, title: string, tagline: string, description: string, link: string | undefined, github: string | undefined, paper: string | undefined }) {
   return (
     <div className="relative flex flex-col bg-gray-500 dark:bg-white dark:bg-opacity-10 bg-opacity-10 shadow-md bg-clip-border rounded-xl border border-black border-opacity-0 dark:border-opacity-0 dark:border-white hover:border-opacity-90 hover:bg-opacity-5 hover:translate-x-1 hover:translate-y-1 transition-all">
       <div className="p-6">
@@ -11,14 +11,20 @@ export default function AppCard({ wordcount, lang, title, tagline, description, 
         <i>{tagline}</i>
         <div className="p-1 pt-2 flex-row">
         <a href={github} target="_blank" rel="noopener noreferrer">
-          <button className="border bg-opacity-0 dark:bg-opacity-0  mb-2 mr-3 text-sm p-2 rounded-md hover:font-semibold hover:bg-opacity-5 border-black bg-black   dark:border-white dark:bg-white hover:border-2">
+          <button className="border bg-opacity-0 dark:bg-opacity-0  mb-2 text-sm p-2 rounded-md hover:font-semibold hover:bg-opacity-5 border-black bg-black   dark:border-white dark:bg-white hover:border-2">
             GITHUB
           </button>
         </a>
         {link ? <> 
         <a href={link} target="_blank" rel="noopener noreferrer">
-          <button className="border bg-opacity-0 dark:bg-opacity-0  mb-2 text-sm p-2 rounded-md hover:font-semibold hover:bg-opacity-5 border-black bg-black   dark:border-white dark:bg-white hover:border-2">
+          <button className="border bg-opacity-0 dark:bg-opacity-0  mx-3  mb-2 text-sm p-2 rounded-md hover:font-semibold hover:bg-opacity-5 border-black bg-black   dark:border-white dark:bg-white hover:border-2">
             VISIT SITE
+          </button>
+        </a></> : <></>}
+        {paper ? <> 
+        <a href={paper} target="_blank" rel="noopener noreferrer">
+          <button className="border bg-opacity-0 dark:bg-opacity-0  mb-2 text-sm p-2 rounded-md hover:font-semibold hover:bg-opacity-5 border-black bg-black   dark:border-white dark:bg-white hover:border-2">
+            PUBMED
           </button>
         </a></> : <></>}
       </div>

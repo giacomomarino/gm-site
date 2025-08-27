@@ -13,7 +13,7 @@ export default function CardGrid({ colLength, maxrows }: { colLength: number, ma
                     if (index >= maxCards) return null;
                     return (
                         <div key={index} className="w-full mx-auto xl:3/4 sm:w-full md:w-full lg:w-3/4">
-                            <AppCard wordcount={wordcount} lang={project.lang} title={project.title} tagline={project.tagline} description={project.description} link={project.link} github={project.github} />
+                            <AppCard wordcount={wordcount} lang={project.lang} title={project.title} tagline={project.tagline} description={project.description} link={project.link} github={project.github} paper={project.paper} />
                         </div>
                     )
                 })}
@@ -28,7 +28,7 @@ export default function CardGrid({ colLength, maxrows }: { colLength: number, ma
                     if (1 == (index % 2)) return null;
                     return (
                         <div key={index} className="mx-auto mb-6" style={{ minWidth: "100px", maxWidth: "650px"}}>
-                            <AppCard wordcount={wordcount} lang={project.lang} title={project.title} tagline={project.tagline} description={project.description} link={project.link} github={project.github} />
+                            <AppCard wordcount={wordcount} lang={project.lang} title={project.title} tagline={project.tagline} description={project.description} link={project.link} github={project.github} paper={project.paper} />
                         </div>
                     )
                 })}
@@ -38,7 +38,7 @@ export default function CardGrid({ colLength, maxrows }: { colLength: number, ma
                     if (0 == (index % 2)) return null;
                     return (
                         <div key={index} className="mx-auto mb-6" style={{ minWidth: "100px", maxWidth: "650px"}}>
-                            <AppCard wordcount={wordcount} lang={project.lang} title={project.title} tagline={project.tagline} description={project.description} link={project.link} github={project.github} />
+                            <AppCard wordcount={wordcount} lang={project.lang} title={project.title} tagline={project.tagline} description={project.description} link={project.link} github={project.github} paper={project.paper} />
                         </div>
                     )
                 })}
