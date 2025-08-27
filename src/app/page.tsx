@@ -19,7 +19,7 @@ export default function Home() {
             </span>{" "}
             at the Ma&apos;ayan Laboratory at the Icahn School of Medicine at Mount Sinai, where I built web servers and data-driven tools for biomedical research.
 
-            I&apos;m now headed to Yale University to pursue a PhD in the Computational Biology and Biomedical Informatics program.
+            I&apos;m currently at Yale University pursuing a PhD in the Computational Biology and Biomedical Informatics program.
 
             Check out one of my recent projects:
             </p>
