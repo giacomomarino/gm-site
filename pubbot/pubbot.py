@@ -3,9 +3,9 @@ import xml.etree.ElementTree as ET
 import json
 from datetime import datetime
 
-def fetch_pubmed_publications(term="Giacomo B Marino", page=2):
+def fetch_pubmed_publications(term="Giacomo B Marino"):
     # Pagination math
-    retstart = 1
+    retstart = 0  # 0-based indexing - start from the first result
     retmax = 50
 
     # Step 1: ESearch to get PMIDs
@@ -20,6 +20,8 @@ def fetch_pubmed_publications(term="Giacomo B Marino", page=2):
     }
     esearch_response = requests.get(esearch_url, params=params).json()
     pmids = esearch_response["esearchresult"]["idlist"]
+
+    print(pmids)
 
     if not pmids:
         return {"publications": []}
@@ -42,8 +44,10 @@ def fetch_pubmed_publications(term="Giacomo B Marino", page=2):
             journal = article_data.findtext("Journal/Title")
             pub_date_elem = article_data.find("Journal/JournalIssue/PubDate")
             date_parts = [pub_date_elem.findtext(tag) for tag in ("Year", "Month", "Day")]
-            date = "-".join(filter(None, date_parts))
-            if len(date_parts) == 1:
+            non_none_parts = list(filter(None, date_parts))
+            date = "-".join(non_none_parts)
+            # If only year is present, add default month and day for sorting
+            if len(non_none_parts) == 1:
                 date += "-01-01"
 
             authors = article_data.find("AuthorList")
@@ -113,8 +117,12 @@ with open('src/app/publications.json', 'r') as f:
             try:
                 return datetime.strptime(date_str, "%Y-%b-%d")
             except ValueError:
-                # Handle dates with only year and month
-                return datetime.strptime(date_str, "%Y-%b")
+                try:
+                    # Handle dates with only year and month
+                    return datetime.strptime(date_str, "%Y-%b")
+                except ValueError:
+                    # Handle dates with only year
+                    return datetime.strptime(date_str, "%Y")
     
     # Remove bioRxiv versions if a published version exists
     title_to_pub = {}

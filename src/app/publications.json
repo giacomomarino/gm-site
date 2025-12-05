@@ -73,7 +73,7 @@
                 "An E",
                 "Zhang X",
                 "Clauser KR",
-                "Fenyö D",
+                "Feny\u00f6 D",
                 "Chinnaiyan AM",
                 "Zhang B",
                 "Ding L",
@@ -233,6 +233,25 @@
                 "Marino GB",
                 "Olaiya S",
                 "Evangelista JE",
+                "Clarke DJB",
+                "Ma'ayan A"
+            ],
+            "source": "Giacomo Marino",
+            "grade": "Preferred source (of 2)"
+        },
+        {
+            "title": "sc2DAT: workflow for targeting tumor subpopulations of single cells.",
+            "journal": "Bioinformatics advances",
+            "date": "2025-01-01",
+            "type": "Journal Article",
+            "author": "Marino GB",
+            "doi": "10.1093/bioadv/vbaf237",
+            "pmid": "41079221",
+            "pmc": "PMC12512136",
+            "contributors": [
+                "Marino GB",
+                "Byrd AI",
+                "Ahmed N",
                 "Clarke DJB",
                 "Ma'ayan A"
             ],
