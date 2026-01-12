@@ -1,6 +1,37 @@
 {
     "publications": [
         {
+            "title": "The CFDE Workbench: Integrating Metadata and Processed Data from Common Fund Programs.",
+            "journal": "Journal of molecular biology",
+            "date": "2026-Jan-06",
+            "type": "Journal Article",
+            "author": "Marino GB",
+            "doi": "10.1016/j.jmb.2026.169631",
+            "pmid": "41506317",
+            "pmc": null,
+            "contributors": [
+                "Evangelista JE",
+                "Clarke DJB",
+                "Byrd AI",
+                "Srinivasan S",
+                "Srinivasan S",
+                "Maurya MR",
+                "Jenkins SL",
+                "Diamant I",
+                "Sanchez E",
+                "Xie Z",
+                "Olaiya S",
+                "Kim H",
+                "Marino GB",
+                "Ahmed N",
+                "Ramachandran S",
+                "Subramaniam S",
+                "Ma'ayan A"
+            ],
+            "source": "Giacomo Marino",
+            "grade": "Preferred source (of 2)"
+        },
+        {
             "title": "Integrative analysis of lung adenocarcinoma across diverse ethnicities and exposures.",
             "journal": "Cancer Cell",
             "date": "2025-Jul-30",
