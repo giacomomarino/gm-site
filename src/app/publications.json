@@ -1,6 +1,23 @@
 {
     "publications": [
         {
+            "title": "GSFM: A gene set foundation model pre-trained on a massive collection of diverse gene sets.",
+            "journal": "Patterns",
+            "date": "2026-May-21",
+            "type": "Journal Article",
+            "author": "Marino GB",
+            "doi": "10.1016/j.patter.2026.101565",
+            "pmid": null,
+            "pmc": null,
+            "contributors": [
+                "Clarke DJB",
+                "Marino GB",
+                "Ma'ayan A"
+            ],
+            "source": "Giacomo Marino",
+            "grade": "Preferred source (of 2)"
+        },
+        {
             "title": "The CFDE Workbench: Integrating Metadata and Processed Data from Common Fund Programs.",
             "journal": "Journal of molecular biology",
             "date": "2026-Jan-06",
@@ -136,23 +153,6 @@
                 "Gillette MA",
                 "Taiwan Cancer Moonshot Program",
                 "Clinical Proteomic Tumor Analysis Consortium"
-            ],
-            "source": "Giacomo Marino",
-            "grade": "Preferred source (of 2)"
-        },
-        {
-            "title": "A Gene Set Foundation Model Pre-Trained on a Massive Collection of Diverse Gene Sets.",
-            "journal": "bioRxiv : the preprint server for biology",
-            "date": "2025-Jun-02",
-            "type": "Journal Article",
-            "author": "Marino GB",
-            "doi": "10.1101/2025.05.30.657124",
-            "pmid": "40501705",
-            "pmc": "PMC12157384",
-            "contributors": [
-                "Clarke DJB",
-                "Marino GB",
-                "Ma'ayan A"
             ],
             "source": "Giacomo Marino",
             "grade": "Preferred source (of 2)"
